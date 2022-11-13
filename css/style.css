@@ -16,6 +16,10 @@
 :root {
   --theme-colour: #5f9df7;
   --text-colour: #ffffff;
+  --normal-para-size: 18px;
+  --category-para-size: 12px;
+  --publish-date-para-size: 13px;
+  
 }
 
 /* Logo CSS Starts Here  */
@@ -24,13 +28,13 @@
 }
 
 .logo img {
-  height: 55px;
+  height: 80px;
 }
 
 /* Media-Query of Logo  */
 @media (max-width: 992px) {
   .logo img {
-    height: 55px;
+    height: 70px;
   }
 }
 
@@ -39,13 +43,13 @@
 
 @media (max-width: 576px) {
   .logo img {
-    height: 50px;
+    height: 60px;
   }
 }
 
 @media (max-width: 311px) {
   .logo img {
-    height: 40px;
+    height: 45px;
   }
 }
 
@@ -59,20 +63,20 @@
 
 #footer img {
   /* max-height: 60px; */
-  max-width: 150px;
+  max-width: 220px;
   margin-bottom: 10px;
 }
 
 .footer-left p {
-  font-size: 12px;
+  font-size: var(--normal-para-size);
 }
 
 .footer-mid p {
-  font-size: 12px;
+  font-size: var(--normal-para-size);
 }
 
 .footer-right p {
-  font-size: 12px;
+  font-size: var(--normal-para-size);
   margin-bottom: 8px;
 }
 
@@ -86,8 +90,8 @@
 
 @media (max-width: 768px) {
   #footer img {
-    max-height: 100px;
-    max-height: 100px;
+    max-height: 150px;
+
   }
 }
 
@@ -95,20 +99,20 @@
 
 @media (max-width: 311px) {
   #footer img {
-    max-height: 100px;
-    max-height: 100px;
+    max-height: 50px;
+    
   }
  
 }
 
 /* Social Icon CSS  */
 #social-icons .box {
-  margin-right: 11px;
+  margin-right: 15px;
 }
 
 #social-icons a {
   color: white;
-  font-size: 12px;
+  font-size: var(--normal-para-size);
 }
 #social-icons a:hover {
   color: bisque;
@@ -117,22 +121,24 @@
 /* Social Icons Mediaqueries  */
 @media (max-width: 576px) {
   #social-icons a {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
 /* Advertisment Images CSS Starts Here  */
+
+.rec{
+  text-align: center;
+}
 .ntpc{
   text-align: center;
 }
-.ntpc img{
-  height: 100px;
-}
+
 
 
 /* Main Post CSS Starts Here  */
 .main-post .category{
-  font-size: 8px;
+  font-size: var(--category-para-size);
   margin: 10px 0 5px 0;
   background-color: red;
   display: inline-block;
@@ -141,12 +147,12 @@
 }
 
 .main-post .publish-date{
-  font-size: 9px;
+  font-size: var(--publish-date-para-size);
   margin: 0 0 5px 0 ;
 }
 
 .main-post .description{
-  font-size: 9px;
+  font-size: var(--category-para-size);
   margin: 5px 0 10px 0;
 }
 
@@ -165,16 +171,16 @@
 
 .side-post img{
   width: 100vw;
-  height: 150px;
+  height: 200px;
 }
 
 .side-post .publish-date{
-  font-size: 9px;
+  font-size: var(--publish-date-para-size);
   margin: 0 0 5px 0 ;
 }
 
 .side-post h4{
-  line-height: 25px;
+  line-height: 28px;
 }
 
 .side-post a{
@@ -197,16 +203,16 @@
 }
 
 .bottom-post .publish-date{
-  font-size: 9px;
+  font-size: var(--publish-date-para-size);
   margin: 0 0 5px 0 ;
 }
 
 .bottom-post .description{
-  font-size: 12px;
+  font-size: var(--normal-para-size);
 }
 
 .bundle{
-  font-size: 18px;
+  font-size: 22px;
   margin: 10px 0 5px 0;
   background-color: red;
   display: inline-block;
@@ -217,7 +223,7 @@
 
 /* Detail Post CSS Starts Here  */
 .detail-post .category{
-  font-size: 8px;
+  font-size: var(--category-para-size);
   margin: 10px 0 5px 0;
   background-color: black;
   display: inline-block;
@@ -227,7 +233,7 @@
 
 
 .detail-post .publish-date{
-  font-size: 11px;
+  font-size: var(--publish-date-para-size);
   margin: 0 0 5px 0 ;
 }
 
@@ -238,11 +244,11 @@
 
 
 .detail-post .description{
-  font-size: 13px;
+  font-size: var(--normal-para-size);
 }
 
 .detail-post .small{
-  font-size: 9px;
+  font-size: var(--publish-date-para-size);
   margin: 4px 0 20px 0
 }
 
@@ -252,12 +258,12 @@
 }
 
 .detail-post .head{
-  font-size: 20px;
+  font-size: 33px;
   margin: 10px 0 20px 0;
 }
 
 .detail-post .end{
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 25px;
 }
 
