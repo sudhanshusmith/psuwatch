@@ -134,6 +134,10 @@
   text-align: center;
 }
 
+.ntpc img{
+  height: 150px;
+}
+
 
 
 /* Main Post CSS Starts Here  */
@@ -197,6 +201,7 @@
   color: black;
   text-decoration: none;
 }
+
 
 .bottom-post a:hover{
   color: red;
