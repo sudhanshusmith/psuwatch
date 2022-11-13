@@ -1,0 +1,282 @@
+/* Utilities classes  */
+/* .red-bor {
+  border: 2px solid red;
+}
+.green-bor {
+  border: 2px solid green;
+}
+.black-bor {
+  border: 2px solid black;
+}
+.blue-bor {
+  border: 2px solid blue;
+} */
+
+/* CSS Variables  */
+:root {
+  --theme-colour: #5f9df7;
+  --text-colour: #ffffff;
+}
+
+/* Logo CSS Starts Here  */
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  height: 55px;
+}
+
+/* Media-Query of Logo  */
+@media (max-width: 992px) {
+  .logo img {
+    height: 55px;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .logo img {
+    height: 50px;
+  }
+}
+
+@media (max-width: 311px) {
+  .logo img {
+    height: 40px;
+  }
+}
+
+/* Navbar CSS Starts here  */
+
+/* Footer Css  */
+#footer {
+  color: #ffffff;
+  background-color: #004abe;
+}
+
+#footer img {
+  /* max-height: 60px; */
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 12px;
+}
+
+.footer-mid p {
+  font-size: 12px;
+}
+
+.footer-right p {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+/* # Footer MediaQuieries  */
+@media (max-width: 992px) {
+  #footer img {
+    max-height: 130px;
+    max-height: 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  #footer img {
+    max-height: 100px;
+    max-height: 100px;
+  }
+}
+
+
+
+@media (max-width: 311px) {
+  #footer img {
+    max-height: 100px;
+    max-height: 100px;
+  }
+ 
+}
+
+/* Social Icon CSS  */
+#social-icons .box {
+  margin-right: 11px;
+}
+
+#social-icons a {
+  color: white;
+  font-size: 12px;
+}
+#social-icons a:hover {
+  color: bisque;
+}
+
+/* Social Icons Mediaqueries  */
+@media (max-width: 576px) {
+  #social-icons a {
+    font-size: 10px;
+  }
+}
+
+/* Advertisment Images CSS Starts Here  */
+.ntpc{
+  text-align: center;
+}
+.ntpc img{
+  height: 150px;
+}
+
+
+/* Main Post CSS Starts Here  */
+.main-post .category{
+  font-size: 8px;
+  margin: 10px 0 5px 0;
+  background-color: red;
+  display: inline-block;
+  color: white;
+  padding: 0 4px;
+}
+
+.main-post .publish-date{
+  font-size: 9px;
+  margin: 0 0 5px 0 ;
+}
+
+.main-post .description{
+  font-size: 9px;
+  margin: 5px 0 10px 0;
+}
+
+
+.main-post a{
+  color: black;
+  text-decoration: none;
+}
+
+.main-post a:hover{
+  color: red;
+}
+
+
+/* Side Post CSS Starts Here  */
+
+.side-post img{
+  width: 100vw;
+  height: 150px;
+}
+
+.side-post .publish-date{
+  font-size: 9px;
+  margin: 0 0 5px 0 ;
+}
+
+.side-post h4{
+  line-height: 25px;
+}
+
+.side-post a{
+  color: black;
+  text-decoration: none;
+}
+
+.side-post a:hover{
+  color: red;
+}
+
+/* Bottom Post CSS Starts Here  */
+.bottom-post a{
+  color: black;
+  text-decoration: none;
+}
+
+.bottom-post a:hover{
+  color: red;
+}
+
+.bottom-post .publish-date{
+  font-size: 9px;
+  margin: 0 0 5px 0 ;
+}
+
+.bottom-post .description{
+  font-size: 12px;
+}
+
+.bundle{
+  font-size: 18px;
+  margin: 10px 0 5px 0;
+  background-color: red;
+  display: inline-block;
+  color: white;
+  padding: 0 4px;
+}
+
+
+/* Detail Post CSS Starts Here  */
+.detail-post .category{
+  font-size: 8px;
+  margin: 10px 0 5px 0;
+  background-color: black;
+  display: inline-block;
+  color: white;
+  padding: 0 4px;
+}
+
+
+.detail-post .publish-date{
+  font-size: 11px;
+  margin: 0 0 5px 0 ;
+}
+
+
+.detail-post .text-red{
+  color: red;
+}
+
+
+.detail-post .description{
+  font-size: 13px;
+}
+
+.detail-post .small{
+  font-size: 9px;
+  margin: 4px 0 20px 0
+}
+
+.detail-post a{
+  color: red;
+  text-decoration: none;
+}
+
+.detail-post .head{
+  font-size: 20px;
+  margin: 10px 0 20px 0;
+}
+
+.detail-post .end{
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+
+/* Media-Query of All Type of Post  */
+@media (max-width: 992px) {
+  
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .side-post img{
+    width: 100vw;
+    height: 200px;
+  }
+}
+
+@media (max-width: 311px) {
+  
+}
